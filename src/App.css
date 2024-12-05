@@ -1,0 +1,92 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#mainBox{
+  background-color: rgb(176, 176, 83);
+  width: 25rem;
+  height: 8rem;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#entry{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  background-color:lightcoral;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+#sbmtBtn{
+  margin: 5% ;
+  background-color: brown;
+  border: 2px solid white;
+}
+
+#selector{
+  height: 30px;
+  width: 25%;
+  text-align: center;
+  border: 2px solid pink;
+  background-color: teal;
+  border-radius: 10px;
+}
+
+#mainBox2{
+  height: 20rem;
+  width: 50rem;
+  background-color: white;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 15px;
+  display: flex;
+}
+
+#mainBox2 div{
+  height:50%;
+  width: 30%;
+  background-color: grey;
+  margin: auto
+}
